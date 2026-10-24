@@ -1,0 +1,733 @@
+
+#body{
+    width: 1550px;
+    margin: 0 auto;
+    background-color: aliceblue;
+   
+}
+/* header section styles------------ */
+
+nav{
+    width: 1550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .btn{
+    height: 40px;
+    width: 100px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: rgba(0, 106, 80, 1);
+   font-family: "Fira Sans";
+   font-style: SemiBold;
+   font-size: 18px;
+   font-weight: 600;
+   cursor: pointer;
+   
+}
+.btn:hover{
+background-color: darkgrey;
+}
+
+
+
+/* mian section styles------------- */
+
+.banner{
+    width: 1550px;
+    height: 600px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.items{
+    margin-left: 80px;
+}
+.banner .img-1{
+    margin-right: 80px;
+}
+.items .p-1{
+color: rgba(14, 14, 14, 0.5);
+font-family: "Fira Sans";
+font-style: Medium;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+}
+.items .h-1{
+color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+}
+.items .btn{
+    width: 400px;
+    height: 50px;
+    border-radius:8px ;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "Fira Sans";
+    font-style: SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border:2px solid rgba(0, 106, 80, 1) ;
+}
+ .items .btn:hover{
+background-color: darkgrey;
+}
+
+/* section-2 styles---------------- */
+
+.cards{
+    margin-top: 100px;
+    height: 500px;
+}
+ 
+.cards .h-1{
+color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+ 
+.card-1{
+   width: 350px;
+   height: 300px;
+   gap: 24px;
+   padding: 24px;
+   box-sizing: border-box;
+   border: 1px solid rgba(14, 14, 14, 0.15);
+   border-radius: 16px;
+   background: white
+
+}
+.card-1 .p-1{
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Bolder;
+font-size: 27px;
+font-weight: 800;
+line-height: 24px;
+}
+ 
+.card-1 .p-2{
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+}
+
+/* section-3 styles----------- */
+
+
+.about-future{
+    width: 1550px;
+    height:765px; ;
+}
+
+.about-future .h-1{
+    color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+
+.about-future .p-1{
+ color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 50px;
+}
+
+.cards-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-{
+width: 410.67px;
+height: 325px;
+box-sizing: border-box;
+border-radius: 16px;
+gap: 24px;
+padding: 32px;
+background: rgba(84, 144, 245, 0.2);
+box-sizing: border-box;
+border-radius: 16px;
+
+}
+
+.card-2{
+width: 410.67px;
+height: 325px;
+box-sizing: border-box;
+border-radius: 16px;
+gap: 24px;
+padding: 32px;
+background: rgba(198, 228, 214, 1);
+box-sizing: border-box;
+border-radius: 16px;
+
+
+}
+.card-3{
+width: 410.67px;
+height: 325px;
+box-sizing: border-box;
+border-radius: 16px;
+gap: 24px;
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(247, 235, 207, 1);
+}
+
+.cards-2 .btn{
+color: rgba(255, 255, 255, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+border-radius: 8px;
+background: rgba(84, 144, 245, 1);
+width: 122px;
+height: 41px;
+text-align: center;
+border: none;
+}
+.cards-2 .btn-1{
+color: rgba(255, 255, 255, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+border-radius: 8px;
+background: rgba(9, 161, 92, 1);
+width: 122px;
+height: 41px;
+text-align: center;
+border: none;
+
+}
+.cards-2 .btn-2{
+color: rgba(255, 255, 255, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+border-radius: 8px;
+background: rgba(255, 194, 57, 1);
+width: 122px;
+height: 41px;
+text-align: center;
+border: none;
+
+}
+.cards-2 .btn:hover{
+background-color: grey; 
+}
+.btn-1:hover{
+background-color: grey; 
+}
+.btn-2:hover{
+background-color: grey; 
+}
+
+.card- .p-1{
+  color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;  
+}
+.card-2 .p-1{
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+}
+.card-3 .p-1{
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+}
+.card- .p-2{
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.card-2 .p-2{
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.card-3 .p-2{
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.yunus{
+    width: 1500px;
+    height: 256px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 40px;
+    
+}
+
+.yunus-dis{
+    padding: 5px 40px 40px 0px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    
+}
+
+.yunus-dis .p-1{
+
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+} 
+
+
+.yunus-dis .p-2{
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 25px;
+font-weight: 600;
+line-height: 24px;
+}
+
+.yunus-dis .p-3{
+color: rgba(14, 14, 14, 0.6);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* section 4- styles---------------- */
+
+
+.section-4{
+    width: 1550px;
+    height:409px ;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 150px;
+    
+}
+
+.opinions{
+    padding: 30px;
+}
+
+.head-box{
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+width: 1500px;
+height: 72px;
+border: 1px solid grey;
+height: 72px;
+
+padding: 0px 20px 0px 20px;
+background: rgba(198, 228, 214, 1);
+}
+.head-box .p-1{
+color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+}
+
+.for-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.option-box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.opinion-box-left .p-{
+color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 20px;
+font-weight: 600;
+box-sizing: border-box;
+border: 1px solid gray;
+width: 1350px;
+height: 90px;
+margin-top: none;
+text-align: left;
+padding:30px 0px 0px 20px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.option-box-right .btn-{
+    color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+width: 100px;
+height: 44px;
+border: 1px solid rgba(14, 14, 14, 1);
+border-radius: 4px;
+background: rgba(198, 228, 214, 1);
+border:1px solid gray ;
+margin: 20px 0px 0px 20px;
+
+}
+.btn-:hover{
+background-color: cadetblue;
+}
+.box-degine{
+    width: 150px;
+    height: 90px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+.news{
+    margin-top: 124px;
+    width: 1550px;
+    height: 120px;
+    margin-bottom:40px;
+}
+
+.news .h-1{
+color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 45px;
+font-weight: 700;
+line-height: 48px;
+}
+
+.news .p-1{
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+
+/* section-5----------- */
+
+
+
+.parts{
+    width: 1550px;
+    height: 402px;
+    display: flex;
+    justify-content:space-around ;
+    align-items:center ;
+    background-color: white;
+    border-radius: 19px;
+    margin-bottom: 50px;
+}
+.part-2 .h-1{
+    color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+}
+.part-2 .p-1{
+   color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+}
+.part-2 .p-2{
+    color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+}
+.part-2 .btn--{
+    color: rgba(255, 255, 255, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+border-radius: 8px;
+background: rgba(0, 106, 80, 1);
+width: 139px;
+height: 48px;
+}
+
+
+/* section-8------------------ */
+.section-8{
+    width: 1550px;
+}
+
+
+.donations{
+    margin: 0 auto;
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.donations .h-1{
+color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+
+}
+.donations .p-1{
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 19px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 50px;
+
+}
+.cards-tk{
+    width: 1300px;
+    display: flex;
+
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.cards-tk .h-1{
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+width: 300px;
+height: 150px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+padding-top: 40px;
+}
+.cards-tk .h-2{
+color: rgba(14, 14, 14, 0.8);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+width: 300px;
+height: 150px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(198, 228, 214, 1);
+padding-top: 40px;
+}
+.donations .p--{
+ width: 1250px; 
+height: 50px;   
+color: rgba(14, 14, 14, 0.3);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+border: none ;
+padding-top: 15px;
+background-color: white;
+margin-bottom: 50px;
+}
+.donations .btn---{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgba(0, 106, 80, 1);
+color: rgba(255, 255, 255, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+width: 151px;
+height: 56px;
+
+}
+ .btn---:hover{
+    background-color: gray;
+ }
+
+
+.section-9{
+    margin-top: 50px;
+    width: 1550px;
+    height: 340px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    margin-bottom: 50px;
+}
+
+.Subscription{
+width: 1300px;
+height: 340px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 0 auto;
+}
+
+.Subscription .h-1{
+    margin-bottom: 30px;
+color: rgba(14, 14, 14, 1);
+font-family: "Fira Sans";
+font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+
+}
+
+.Subscription .p-1{
+ color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 19px;
+font-weight: 400;
+line-height: 24px;
+width: 630px;
+margin: 0 auto;
+
+}
+
+.box-button{
+margin-top: 30px;
+width: 800px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box-button input{
+width: 600px;
+height: 50px;
+border-radius: 8px 0px 0px 8px;
+border: 1px solid gray;
+}
+
+.btnn{
+color: rgba(255, 255, 255, 1);
+font-family: "Fira Sans";
+font-style: SemiBold;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+width: 200px;
+height: 55px;
+border-radius: 0px 8px 8px 0px;
+background: rgba(0, 106, 80, 1);
+}
+.btnn:hover{
+    background-color: gray;
+}
+
+
+
+.Subscription .p-2{
+color: rgba(14, 14, 14, 0.7);
+font-family: "Fira Sans";
+font-style: Regular;
+font-size: 19px;
+font-weight: 400;
+line-height: 19px;
+}
+footer{
+    width: 1550px;
+    height:200px ;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot-icons{
+    gap: 40px;
+}
